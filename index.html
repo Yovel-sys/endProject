@@ -21,15 +21,48 @@
   font-style: normal;  
     }
 
+.dropbtn{
+    position: relative;
+    background-color: rgb(255 96 38);
+    color: white;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus{
+    background-color: orangered;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: blue;
+}
+.grid-item{
+    background-color: aqua;
+    border: 1px solid black; 
+}
 </style>
 <body>
     <div class="main-header">
-        <h1>אפקטים קוליים לכל אירוע</h1>
-        <h2>מבשלים? קמים בבוקר? הולכים לישון? אנחנו כאן בשבילכם עם סאונדים שיעשו לכם את היום</h2>
+        <h1> שיר לכל כיס </h1>
+        <h2>מבשלים? קמים בבוקר? הולכים לישון? אנחנו כאן בשבילכם עם שירים שיעשו לכם את היום</h2>
     </div>
-
+<div>
+    <div class="dropbtn">
+        בוקר    
+    </div>
+    <div class="dropbtn">
+        צהריים    
+    </div>
+    <div class="dropbtn">
+        ערב    
+    </div>
+</div>
 <p>
-תפריט נפתח 1: בוקר
+תפריט נפתח 1: בוקר- 
 בוקר טוב
 מצחצחים שיניים
 ארוחת בוקר
@@ -38,7 +71,7 @@
 </p>
 
 <p>
-תפריט נפתח 2: צהריים
+תפריט נפתח 2: צהריים- 
 שביזות של משרד
 שיעור משעמם
 מבשלים צהריים
@@ -47,7 +80,7 @@
 </p>
 
 <p>
-תפריט נפתח 3: ערב
+תפריט נפתח 3: ערב- 
 ארוחת ערב
 גיימינג
 נטפליקס
@@ -55,9 +88,17 @@
 מקלחת לילדים
 לילה טוב
 </p>
+ <p>
+    כשלוחצים על דבר נפתח פופאפ ארבעה ריבועים בכל ריבוע שיר שמושמע כשהעכבר מרחף, וקישור ליוטיוב בלחיצה
+ </p>
+
+ <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
 
 
-
+ </div>
 
 
 
